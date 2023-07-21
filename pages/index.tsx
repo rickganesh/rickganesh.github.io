@@ -137,7 +137,7 @@ export default function Home() {
                     icon = (
                       <Image
                         key={index}
-                        src={require("C:/Users/Rithvik Ganesh/Downloads/TXN-e197f953.png")}
+                        src={require("C:/Users/Rithvik Ganesh/Success/hukum/gpt4-pdf-chatbot-langchain/src/TXN.png")}
                         alt="AI"
                         width="30"
                         height="30"
