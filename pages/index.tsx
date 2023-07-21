@@ -2,6 +2,7 @@ import { useRef, useState, useEffect } from 'react';
 import Layout from '@/components/layout';
 import styles from '@/styles/Home.module.css';
 import { Message } from '@/types/chat';
+import TXNImage from "src/TXN.png";
 import Image from 'next/image';
 import ReactMarkdown from 'react-markdown';
 import LoadingDots from '@/components/ui/LoadingDots';
@@ -137,7 +138,7 @@ export default function Home() {
                     icon = (
                       <Image
                         key={index}
-                        src={require("C:/Users/Rithvik Ganesh/Success/hukum/gpt4-pdf-chatbot-langchain/src/TXN.png")}
+                        src={TXNImage}
                         alt="AI"
                         width="30"
                         height="30"
