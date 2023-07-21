@@ -13,7 +13,9 @@ async function initPinecone() {
       apiKey: process.env.PINECONE_API_KEY ?? '',
     });
 
+
     return pinecone;
+    
   } catch (error) {
     console.log('error', error);
     throw new Error('Failed to initialize Pinecone Client');
